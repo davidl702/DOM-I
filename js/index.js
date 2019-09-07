@@ -50,13 +50,6 @@ nav[5].textContent = siteContent["nav"]["nav-item-6"];
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-const navColor = document.querySelectorAll("header nav a");
-navColor[0].style.color = "green";
-navColor[1].style.color = "green";
-navColor[2].style.color = "green";
-navColor[3].style.color = "green";
-navColor[4].style.color = "green";
-navColor[5].style.color = "green";
 
 const findNav = document.querySelector("nav")
 const newNav = document.createElement("a")
@@ -66,8 +59,15 @@ findNav.append(newNav)
 newNav1.textContent = "Home";
 findNav.prepend(newNav1)
 
-
-
+const navColor = document.querySelectorAll("header nav a");
+navColor[0].style.color = "green";
+navColor[1].style.color = "green";
+navColor[2].style.color = "green";
+navColor[3].style.color = "green";
+navColor[4].style.color = "green";
+navColor[5].style.color = "green";
+navColor[6].style.color = "green";
+navColor[7].style.color = "green";
 
 // CTA
 let cta = document.getElementById("cta-img");
