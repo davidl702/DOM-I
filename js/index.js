@@ -58,6 +58,16 @@ navColor[3].style.color = "green";
 navColor[4].style.color = "green";
 navColor[5].style.color = "green";
 
+const findNav = document.querySelector("nav")
+const newNav = document.createElement("a")
+const newNav1 = document.createElement("a")
+newNav.textContent = "Login";
+findNav.append(newNav)
+newNav1.textContent = "Home";
+findNav.prepend(newNav1)
+
+
+
 
 // CTA
 let cta = document.getElementById("cta-img");
